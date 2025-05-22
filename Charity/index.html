@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transparent Charity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Transparent Charity</h1>
+    <p>Empowering Donors. Building Trust. Fighting Illicit Funding.</p>
+  </header>
+
+  <section class="donate-section">
+    <h2>Make a Donation</h2>
+    <form id="donation-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="number" placeholder="Amount (USD)" required />
+      <select required>
+        <option value="" disabled selected>Select Payment Method</option>
+        <option value="crypto">Cryptocurrency</option>
+        <option value="card">Credit/Debit Card</option>
+      </select>
+      <button type="submit">Donate</button>
+    </form>
+  </section>
+
+  <section class="tracking">
+    <h2>Track Your Donation</h2>
+    <input type="text" placeholder="Enter Transaction ID" />
+    <button>Track</button>
+    <div class="result">
+      <!-- Fetched transaction data can be shown here -->
+    </div>
+  </section>
+
+  <section class="stats">
+    <h2>Transparency Dashboard</h2>
+    <ul>
+      <li>Total Donations: $<span id="total-donations">1,25,000</span></li>
+      <li>Verified Beneficiaries: <span id="beneficiaries">187</span></li>
+      <li>Blacklisted Donations Detected: <span id="flagged">4</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Transparent Charity | Built for accountability and impact</p>
+  </footer>
+</body>
+</html>
