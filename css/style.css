@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f2f4f7;
+  color: #333;
+  flex-wrap: wrap;
+}
+
+nav {
+  background: #007bff;
+  height: 30px;
+  padding: 20px;
+  text-align: center;
+}
+footer{
+    background: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 40px;
+  align-content: center;
+  justify-items: center;
+  margin: auto;
+  background: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1698138819865-88d3add4838f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8NDg5OTAzNzZ8fGVufDB8fHx8fA%3D%3D");
+}
+.min-container{
+    display: flex;
+    flex-direction: row;
+}
+input {
+  padding: 10px;
+  width: 60%;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.box2{
+    width: 650px;
+    height: 350px; 
+    margin-left: 70px;
+}
+img{
+    margin-top: 10px;
+}
+.donate{
+    align-content: center;
+    justify-items: center;
+}
+.matter{
+    width: 800px;
+    height: 150px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+button{
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.divider{
+    margin-left: 30px;
+    width: 1px;
+    background-color: black;
+}
+.box1{
+    color: black;
+    background-color: orange;
+    border-radius: 150px;
+}
+.main-matter{
+    display: flex;
+    flex-direction: row;
+}
+.list1{
+    margin-top: 40px;
+}
+.quote{
+    font-style: italic;
+}
+.donations{
+    align-content: center;
+    justify-items: center;
+}
+.don{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    background-color: grey;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.costdon{
+    margin-right: 30px;
+}
